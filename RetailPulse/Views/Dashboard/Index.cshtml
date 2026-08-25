@@ -1,0 +1,116 @@
+@model DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="rp-page-heading">
+    <h1>Sales Analytics Dashboard</h1>
+    <p class="text-muted">An overview of revenue, product and regional performance based on your imported sales data.</p>
+</div>
+
+@if (!Model.HasData)
+{
+    <div class="rp-empty-state">
+        <h2>No sales data available.</h2>
+        <p>Import a CSV file to begin analysing your retail data.</p>
+        <a class="btn btn-primary" asp-controller="Import" asp-action="Index">Import Sales Data</a>
+    </div>
+}
+else
+{
+    <form id="filterForm" class="rp-filters card">
+        <div class="row g-3 align-items-end">
+            <div class="col-6 col-md-3">
+                <label class="form-label" for="startDate">Start date</label>
+                <input type="date" id="startDate" name="startDate" class="form-control"
+                       value="@(Model.StartDate?.ToString("yyyy-MM-dd"))" />
+            </div>
+            <div class="col-6 col-md-3">
+                <label class="form-label" for="endDate">End date</label>
+                <input type="date" id="endDate" name="endDate" class="form-control"
+                       value="@(Model.EndDate?.ToString("yyyy-MM-dd"))" />
+            </div>
+            <div class="col-6 col-md-3">
+                <label class="form-label" for="category">Category</label>
+                <select id="category" name="category" class="form-select">
+                    <option>All Categories</option>
+                    @foreach (var c in Model.Categories)
+                    {
+                        <option selected="@(c == Model.SelectedCategory)">@c</option>
+                    }
+                </select>
+            </div>
+            <div class="col-6 col-md-3">
+                <label class="form-label" for="region">Region</label>
+                <select id="region" name="region" class="form-select">
+                    <option>All Regions</option>
+                    @foreach (var r in Model.Regions)
+                    {
+                        <option selected="@(r == Model.SelectedRegion)">@r</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="rp-filters-actions">
+            <button type="button" id="resetFilters" class="btn btn-link">Reset filters</button>
+        </div>
+    </form>
+
+    <div id="noResultsMessage" class="rp-empty-state d-none">
+        <h2>No sales data matches these filters.</h2>
+        <p>Try widening the date range or selecting a different category or region.</p>
+    </div>
+
+    <div id="dashboardContent">
+        <section class="rp-kpi-grid">
+            <div class="rp-kpi-card">
+                <div class="rp-kpi-label">Total Revenue</div>
+                <div class="rp-kpi-value" id="kpiTotalRevenue">@Model.Kpis.TotalRevenue.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("en-ZA"))</div>
+            </div>
+            <div class="rp-kpi-card">
+                <div class="rp-kpi-label">Units Sold</div>
+                <div class="rp-kpi-value" id="kpiUnitsSold">@Model.Kpis.UnitsSold.ToString("N0")</div>
+            </div>
+            <div class="rp-kpi-card">
+                <div class="rp-kpi-label">Average Order Value</div>
+                <div class="rp-kpi-value" id="kpiAov">@Model.Kpis.AverageOrderValue.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("en-ZA"))</div>
+            </div>
+            <div class="rp-kpi-card">
+                <div class="rp-kpi-label">Top Product</div>
+                <div class="rp-kpi-value" id="kpiTopProduct">@Model.Kpis.TopProduct</div>
+            </div>
+        </section>
+
+        <section class="rp-charts-grid">
+            <div class="rp-chart-card">
+                <h3>Revenue Trend</h3>
+                <canvas id="revenueTrendChart"></canvas>
+            </div>
+            <div class="rp-chart-card">
+                <h3>Revenue by Category</h3>
+                <canvas id="categoryChart"></canvas>
+            </div>
+            <div class="rp-chart-card">
+                <h3>Top 5 Products</h3>
+                <canvas id="topProductsChart"></canvas>
+            </div>
+            <div class="rp-chart-card">
+                <h3>Revenue by Region</h3>
+                <canvas id="regionChart"></canvas>
+            </div>
+        </section>
+
+        <section class="rp-insights card">
+            <h3>Business Insights</h3>
+            <ul id="insightsList" class="rp-insights-list"></ul>
+        </section>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        window.retailPulseInitialData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model, new System.Text.Json.JsonSerializerOptions { PropertyNamingPolicy = System.Text.Json.JsonNamingPolicy.CamelCase }));
+        window.retailPulseFilterUrl = '@Url.Action("Filter", "Dashboard")';
+    </script>
+    <script src="~/js/dashboard.js" asp-append-version="true"></script>
+}

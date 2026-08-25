@@ -1,0 +1,221 @@
+TransactionId,Date,Product,Category,Region,Quantity,UnitPrice,Revenue
+1,2026-01-01,Tablet,Electronics,KwaZulu-Natal,5,4990,24950
+2,2026-01-01,Keyboard,Accessories,Eastern Cape,2,730,1460
+3,2026-01-01,Office Chair,Furniture,Free State,6,2860,17160
+4,2026-01-02,Monitor,Electronics,KwaZulu-Natal,1,2780,2780
+5,2026-01-03,Smartphone,Electronics,KwaZulu-Natal,1,13750,13750
+6,2026-01-07,Mouse,Accessories,KwaZulu-Natal,3,180,540
+7,2026-01-07,Shredder,Office Equipment,KwaZulu-Natal,6,660,3960
+8,2026-01-08,Smartphone,Electronics,KwaZulu-Natal,2,10160,20320
+9,2026-01-09,Shredder,Office Equipment,Gauteng,4,1110,4440
+10,2026-01-10,Headphones,Accessories,Gauteng,6,1550,9300
+11,2026-01-10,Bookshelf,Furniture,Gauteng,1,2010,2010
+12,2026-01-11,Desk,Furniture,Free State,2,3570,7140
+13,2026-01-12,Mouse,Accessories,Gauteng,2,350,700
+14,2026-01-13,Laptop,Electronics,Eastern Cape,3,12660,37980
+15,2026-01-14,Bookshelf,Furniture,Eastern Cape,2,1480,2960
+16,2026-01-15,Scanner,Office Equipment,Gauteng,5,1710,8550
+17,2026-01-18,Smartphone,Electronics,Gauteng,5,8360,41800
+18,2026-01-19,Desk,Furniture,KwaZulu-Natal,4,2780,11120
+19,2026-01-20,Monitor,Electronics,KwaZulu-Natal,4,4090,16360
+20,2026-01-21,Printer,Office Equipment,Free State,1,3260,3260
+21,2026-01-21,Keyboard,Accessories,Free State,6,660,3960
+22,2026-01-21,Headphones,Accessories,Free State,4,740,2960
+23,2026-01-22,Smartphone,Electronics,Western Cape,6,14030,84180
+24,2026-01-24,Bookshelf,Furniture,Gauteng,3,1220,3660
+25,2026-01-25,Bookshelf,Furniture,KwaZulu-Natal,1,1200,1200
+26,2026-01-25,Bookshelf,Furniture,Free State,3,1900,5700
+27,2026-01-26,Smartphone,Electronics,Western Cape,6,9800,58800
+28,2026-01-28,Headphones,Accessories,Gauteng,3,1530,4590
+29,2026-02-01,Desk,Furniture,KwaZulu-Natal,1,4310,4310
+30,2026-02-01,Tablet,Electronics,Gauteng,5,6770,33850
+31,2026-02-02,Tablet,Electronics,Gauteng,3,4350,13050
+32,2026-02-02,Shredder,Office Equipment,Western Cape,6,1400,8400
+33,2026-02-02,Keyboard,Accessories,Gauteng,5,750,3750
+34,2026-02-02,Laptop,Electronics,Western Cape,1,17840,17840
+35,2026-02-03,Desk,Furniture,Free State,6,3110,18660
+36,2026-02-03,Desk,Furniture,Gauteng,6,3500,21000
+37,2026-02-03,Webcam,Accessories,KwaZulu-Natal,4,1050,4200
+38,2026-02-03,Shredder,Office Equipment,Gauteng,2,730,1460
+39,2026-02-05,Tablet,Electronics,KwaZulu-Natal,4,4920,19680
+40,2026-02-06,Webcam,Accessories,Free State,3,820,2460
+41,2026-02-07,Bookshelf,Furniture,Western Cape,2,1390,2780
+42,2026-02-07,Desk,Furniture,KwaZulu-Natal,5,3840,19200
+43,2026-02-08,Shredder,Office Equipment,Eastern Cape,1,790,790
+44,2026-02-09,Printer,Office Equipment,Free State,5,3630,18150
+45,2026-02-10,Printer,Office Equipment,Gauteng,4,4190,16760
+46,2026-02-13,Smartphone,Electronics,KwaZulu-Natal,3,14340,43020
+47,2026-02-14,Mouse,Accessories,Gauteng,2,290,580
+48,2026-02-14,Scanner,Office Equipment,Western Cape,2,1660,3320
+49,2026-02-14,Bookshelf,Furniture,KwaZulu-Natal,4,1510,6040
+50,2026-02-14,Scanner,Office Equipment,Western Cape,6,3130,18780
+51,2026-02-16,Tablet,Electronics,Gauteng,2,6700,13400
+52,2026-02-17,Bookshelf,Furniture,KwaZulu-Natal,4,1060,4240
+53,2026-02-18,Monitor,Electronics,Free State,2,2890,5780
+54,2026-02-19,Printer,Office Equipment,Free State,5,2930,14650
+55,2026-02-21,Printer,Office Equipment,Gauteng,6,2040,12240
+56,2026-02-23,Scanner,Office Equipment,Western Cape,4,1760,7040
+57,2026-02-25,Smartphone,Electronics,KwaZulu-Natal,5,14270,71350
+58,2026-02-26,Headphones,Accessories,Eastern Cape,1,920,920
+59,2026-02-28,Office Chair,Furniture,Free State,6,1890,11340
+60,2026-02-28,Webcam,Accessories,Western Cape,4,1120,4480
+61,2026-03-01,Scanner,Office Equipment,Free State,4,2560,10240
+62,2026-03-02,Headphones,Accessories,Eastern Cape,1,1070,1070
+63,2026-03-03,Desk,Furniture,Free State,5,2380,11900
+64,2026-03-06,Office Chair,Furniture,Gauteng,1,2570,2570
+65,2026-03-08,Laptop,Electronics,Eastern Cape,2,20170,40340
+66,2026-03-09,Smartphone,Electronics,Western Cape,2,12670,25340
+67,2026-03-10,Bookshelf,Furniture,Eastern Cape,6,1030,6180
+68,2026-03-11,Bookshelf,Furniture,Gauteng,3,2020,6060
+69,2026-03-12,Keyboard,Accessories,Gauteng,1,830,830
+70,2026-03-13,Bookshelf,Furniture,Free State,1,2120,2120
+71,2026-03-14,Desk,Furniture,Western Cape,2,1910,3820
+72,2026-03-14,Office Chair,Furniture,Free State,5,2920,14600
+73,2026-03-15,Mouse,Accessories,KwaZulu-Natal,5,360,1800
+74,2026-03-17,Office Chair,Furniture,Free State,2,1330,2660
+75,2026-03-18,Office Chair,Furniture,Eastern Cape,1,1460,1460
+76,2026-03-18,Printer,Office Equipment,Free State,1,3800,3800
+77,2026-03-19,Headphones,Accessories,Western Cape,5,1040,5200
+78,2026-03-20,Desk,Furniture,KwaZulu-Natal,1,3470,3470
+79,2026-03-20,Smartphone,Electronics,Gauteng,2,12460,24920
+80,2026-03-21,Headphones,Accessories,Gauteng,3,1280,3840
+81,2026-03-21,Scanner,Office Equipment,KwaZulu-Natal,5,2180,10900
+82,2026-03-22,Tablet,Electronics,Western Cape,1,5770,5770
+83,2026-03-23,Keyboard,Accessories,Gauteng,3,480,1440
+84,2026-03-23,Keyboard,Accessories,Gauteng,1,560,560
+85,2026-03-26,Desk,Furniture,Free State,6,3230,19380
+86,2026-03-26,Mouse,Accessories,Free State,1,420,420
+87,2026-03-26,Tablet,Electronics,Eastern Cape,2,8410,16820
+88,2026-03-27,Webcam,Accessories,KwaZulu-Natal,2,580,1160
+89,2026-03-28,Tablet,Electronics,Western Cape,3,6530,19590
+90,2026-03-28,Keyboard,Accessories,Free State,1,400,400
+91,2026-03-28,Headphones,Accessories,Eastern Cape,6,1880,11280
+92,2026-03-29,Smartphone,Electronics,Gauteng,1,12680,12680
+93,2026-03-30,Laptop,Electronics,Gauteng,3,19820,59460
+94,2026-03-31,Shredder,Office Equipment,Western Cape,1,690,690
+95,2026-04-01,Laptop,Electronics,Western Cape,5,21260,106300
+96,2026-04-01,Desk,Furniture,Free State,5,2830,14150
+97,2026-04-03,Tablet,Electronics,Gauteng,6,5430,32580
+98,2026-04-05,Tablet,Electronics,Eastern Cape,1,4230,4230
+99,2026-04-07,Laptop,Electronics,Gauteng,4,19860,79440
+100,2026-04-09,Keyboard,Accessories,Gauteng,1,410,410
+101,2026-04-10,Smartphone,Electronics,Western Cape,4,10930,43720
+102,2026-04-10,Laptop,Electronics,Free State,4,20530,82120
+103,2026-04-11,Monitor,Electronics,KwaZulu-Natal,5,3900,19500
+104,2026-04-11,Webcam,Accessories,Gauteng,6,940,5640
+105,2026-04-13,Bookshelf,Furniture,KwaZulu-Natal,6,1280,7680
+106,2026-04-14,Laptop,Electronics,Gauteng,4,21050,84200
+107,2026-04-15,Desk,Furniture,Western Cape,4,2990,11960
+108,2026-04-15,Printer,Office Equipment,Free State,3,3600,10800
+109,2026-04-16,Desk,Furniture,Free State,2,2540,5080
+110,2026-04-17,Scanner,Office Equipment,Western Cape,5,2510,12550
+111,2026-04-18,Headphones,Accessories,Eastern Cape,4,2030,8120
+112,2026-04-20,Scanner,Office Equipment,Free State,6,3020,18120
+113,2026-04-21,Headphones,Accessories,KwaZulu-Natal,6,510,3060
+114,2026-04-22,Mouse,Accessories,KwaZulu-Natal,3,340,1020
+115,2026-04-22,Smartphone,Electronics,Gauteng,4,12100,48400
+116,2026-04-22,Monitor,Electronics,Gauteng,6,4360,26160
+117,2026-04-23,Bookshelf,Furniture,Western Cape,6,1400,8400
+118,2026-04-23,Tablet,Electronics,Gauteng,5,6320,31600
+119,2026-04-23,Smartphone,Electronics,Gauteng,2,12360,24720
+120,2026-04-24,Office Chair,Furniture,Eastern Cape,6,2740,16440
+121,2026-04-24,Bookshelf,Furniture,Eastern Cape,3,1560,4680
+122,2026-04-24,Shredder,Office Equipment,KwaZulu-Natal,6,1040,6240
+123,2026-04-25,Monitor,Electronics,Eastern Cape,2,4520,9040
+124,2026-04-25,Webcam,Accessories,Western Cape,1,760,760
+125,2026-04-25,Shredder,Office Equipment,Western Cape,5,990,4950
+126,2026-04-26,Headphones,Accessories,KwaZulu-Natal,3,1240,3720
+127,2026-04-26,Tablet,Electronics,KwaZulu-Natal,6,4850,29100
+128,2026-04-27,Headphones,Accessories,Eastern Cape,4,2060,8240
+129,2026-04-28,Office Chair,Furniture,KwaZulu-Natal,1,2250,2250
+130,2026-04-29,Office Chair,Furniture,Gauteng,5,1640,8200
+131,2026-04-29,Scanner,Office Equipment,Free State,1,2820,2820
+132,2026-04-29,Keyboard,Accessories,KwaZulu-Natal,5,390,1950
+133,2026-05-01,Tablet,Electronics,Gauteng,5,4760,23800
+134,2026-05-03,Webcam,Accessories,Eastern Cape,3,580,1740
+135,2026-05-04,Smartphone,Electronics,KwaZulu-Natal,5,14530,72650
+136,2026-05-04,Smartphone,Electronics,Free State,5,6230,31150
+137,2026-05-07,Scanner,Office Equipment,Eastern Cape,2,2760,5520
+138,2026-05-09,Webcam,Accessories,Gauteng,4,660,2640
+139,2026-05-09,Tablet,Electronics,KwaZulu-Natal,3,5400,16200
+140,2026-05-09,Desk,Furniture,Eastern Cape,5,1830,9150
+141,2026-05-09,Mouse,Accessories,Eastern Cape,3,230,690
+142,2026-05-10,Monitor,Electronics,Eastern Cape,2,3580,7160
+143,2026-05-11,Monitor,Electronics,Western Cape,1,4730,4730
+144,2026-05-11,Webcam,Accessories,Western Cape,2,1170,2340
+145,2026-05-12,Monitor,Electronics,KwaZulu-Natal,6,5170,31020
+146,2026-05-14,Webcam,Accessories,Eastern Cape,2,990,1980
+147,2026-05-14,Office Chair,Furniture,Western Cape,6,2470,14820
+148,2026-05-15,Webcam,Accessories,KwaZulu-Natal,5,890,4450
+149,2026-05-16,Headphones,Accessories,KwaZulu-Natal,3,810,2430
+150,2026-05-16,Scanner,Office Equipment,KwaZulu-Natal,6,2710,16260
+151,2026-05-16,Keyboard,Accessories,Free State,1,800,800
+152,2026-05-18,Keyboard,Accessories,Gauteng,2,500,1000
+153,2026-05-19,Printer,Office Equipment,Gauteng,6,3790,22740
+154,2026-05-21,Bookshelf,Furniture,Gauteng,4,1080,4320
+155,2026-05-21,Monitor,Electronics,Western Cape,1,4760,4760
+156,2026-05-22,Mouse,Accessories,Western Cape,3,170,510
+157,2026-05-22,Printer,Office Equipment,KwaZulu-Natal,5,2690,13450
+158,2026-05-23,Desk,Furniture,Free State,1,3900,3900
+159,2026-05-23,Laptop,Electronics,KwaZulu-Natal,2,18380,36760
+160,2026-05-24,Webcam,Accessories,KwaZulu-Natal,5,610,3050
+161,2026-05-24,Tablet,Electronics,Gauteng,4,6440,25760
+162,2026-05-25,Webcam,Accessories,KwaZulu-Natal,4,620,2480
+163,2026-05-25,Webcam,Accessories,Eastern Cape,3,530,1590
+164,2026-05-25,Tablet,Electronics,Gauteng,3,8250,24750
+165,2026-05-25,Keyboard,Accessories,Eastern Cape,5,680,3400
+166,2026-05-26,Desk,Furniture,Eastern Cape,5,3910,19550
+167,2026-05-26,Bookshelf,Furniture,KwaZulu-Natal,5,1910,9550
+168,2026-05-27,Shredder,Office Equipment,KwaZulu-Natal,1,980,980
+169,2026-05-28,Bookshelf,Furniture,KwaZulu-Natal,4,1970,7880
+170,2026-05-28,Scanner,Office Equipment,Western Cape,1,2480,2480
+171,2026-05-30,Desk,Furniture,Western Cape,4,3400,13600
+172,2026-05-30,Keyboard,Accessories,Western Cape,4,570,2280
+173,2026-05-30,Shredder,Office Equipment,KwaZulu-Natal,1,820,820
+174,2026-05-31,Printer,Office Equipment,Western Cape,3,2340,7020
+175,2026-06-01,Printer,Office Equipment,Western Cape,6,3260,19560
+176,2026-06-02,Office Chair,Furniture,Western Cape,2,2390,4780
+177,2026-06-03,Tablet,Electronics,Gauteng,2,4010,8020
+178,2026-06-03,Desk,Furniture,KwaZulu-Natal,2,4400,8800
+179,2026-06-05,Tablet,Electronics,Gauteng,3,6190,18570
+180,2026-06-05,Monitor,Electronics,Western Cape,4,5300,21200
+181,2026-06-05,Webcam,Accessories,Free State,5,1170,5850
+182,2026-06-09,Tablet,Electronics,Western Cape,6,4410,26460
+183,2026-06-09,Bookshelf,Furniture,Gauteng,2,990,1980
+184,2026-06-09,Keyboard,Accessories,Western Cape,4,810,3240
+185,2026-06-10,Tablet,Electronics,Western Cape,5,4070,20350
+186,2026-06-11,Monitor,Electronics,Eastern Cape,4,4580,18320
+187,2026-06-11,Monitor,Electronics,Gauteng,1,5410,5410
+188,2026-06-13,Keyboard,Accessories,Western Cape,5,370,1850
+189,2026-06-13,Printer,Office Equipment,Gauteng,2,3850,7700
+190,2026-06-14,Scanner,Office Equipment,Free State,1,2430,2430
+191,2026-06-14,Smartphone,Electronics,Free State,6,13330,79980
+192,2026-06-14,Monitor,Electronics,KwaZulu-Natal,3,3460,10380
+193,2026-06-15,Keyboard,Accessories,KwaZulu-Natal,6,520,3120
+194,2026-06-15,Scanner,Office Equipment,Western Cape,3,2980,8940
+195,2026-06-16,Webcam,Accessories,Eastern Cape,3,430,1290
+196,2026-06-16,Smartphone,Electronics,KwaZulu-Natal,3,8990,26970
+197,2026-06-17,Headphones,Accessories,Free State,5,1340,6700
+198,2026-06-18,Webcam,Accessories,KwaZulu-Natal,2,710,1420
+199,2026-06-19,Headphones,Accessories,Western Cape,6,1670,10020
+200,2026-06-19,Smartphone,Electronics,Gauteng,3,6770,20310
+201,2026-06-19,Webcam,Accessories,KwaZulu-Natal,4,640,2560
+202,2026-06-19,Shredder,Office Equipment,Free State,1,1400,1400
+203,2026-06-19,Bookshelf,Furniture,Eastern Cape,1,1890,1890
+204,2026-06-19,Keyboard,Accessories,Eastern Cape,6,620,3720
+205,2026-06-20,Smartphone,Electronics,Western Cape,6,13420,80520
+206,2026-06-21,Smartphone,Electronics,KwaZulu-Natal,4,14240,56960
+207,2026-06-21,Desk,Furniture,Eastern Cape,4,3850,15400
+208,2026-06-22,Scanner,Office Equipment,KwaZulu-Natal,6,3170,19020
+209,2026-06-23,Keyboard,Accessories,Eastern Cape,4,390,1560
+210,2026-06-24,Desk,Furniture,Gauteng,1,4360,4360
+211,2026-06-24,Headphones,Accessories,Gauteng,4,1700,6800
+212,2026-06-25,Tablet,Electronics,Gauteng,4,7030,28120
+213,2026-06-25,Scanner,Office Equipment,Western Cape,5,2150,10750
+214,2026-06-26,Tablet,Electronics,Free State,6,6950,41700
+215,2026-06-27,Headphones,Accessories,Free State,1,1620,1620
+216,2026-06-27,Headphones,Accessories,Gauteng,1,1280,1280
+217,2026-06-27,Scanner,Office Equipment,Western Cape,1,1980,1980
+218,2026-06-28,Keyboard,Accessories,Eastern Cape,4,540,2160
+219,2026-06-29,Monitor,Electronics,KwaZulu-Natal,4,4700,18800
+220,2026-06-29,Desk,Furniture,Western Cape,2,4130,8260

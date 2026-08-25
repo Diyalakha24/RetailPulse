@@ -1,0 +1,43 @@
+@model ImportResultViewModel
+@{
+    ViewData["Title"] = "Import Sales Data";
+}
+
+<div class="rp-page-heading">
+    <h1>Import Sales Data</h1>
+    <p class="text-muted">Upload a CSV file of retail sales transactions to add it to your analytics dashboard.</p>
+</div>
+
+<div class="rp-import-card card">
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert @(Model.Success ? "alert-success" : "alert-danger")" role="alert">
+            @Model.Message
+        </div>
+    }
+
+    <form asp-controller="Import" asp-action="Index" method="post" enctype="multipart/form-data" class="rp-import-form">
+        <label class="form-label" for="file">Upload your CSV file</label>
+        <input class="form-control" type="file" id="file" name="file" accept=".csv" required />
+        <button type="submit" class="btn btn-primary mt-3">Import Data</button>
+    </form>
+
+    <hr />
+
+    <h3 class="rp-import-subheading">Required CSV columns</h3>
+    <p class="text-muted">
+        Your file must contain a header row with the following columns:
+    </p>
+    <code>TransactionId, Date, Product, Category, Region, Quantity, UnitPrice, Revenue</code>
+
+    <ul class="rp-import-rules">
+        <li>Date must be a valid date (e.g. 2026-01-15).</li>
+        <li>Quantity, UnitPrice and Revenue must be numeric, with Quantity greater than zero and UnitPrice/Revenue not negative.</li>
+        <li>All fields are required - rows with missing values are skipped.</li>
+        <li>Rows with a TransactionId that already exists in the database are treated as duplicates and skipped.</li>
+    </ul>
+
+    <p class="text-muted">
+        A sample file is available in the repository at <code>sample-data/sample-sales-data.csv</code>.
+    </p>
+</div>
