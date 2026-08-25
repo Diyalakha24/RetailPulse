@@ -66,6 +66,8 @@ The dashboard updates without requiring a full page reload.
 
 <img width="1897" height="861" alt="image" src="https://github.com/user-attachments/assets/6dc559c1-f09c-49f6-9145-63ca69a077a0" />
 
+<img width="1890" height="868" alt="image" src="https://github.com/user-attachments/assets/43776a5d-b849-480b-8828-ec7a3f237b98" />
+
 
 ### Data Import
 
@@ -73,7 +75,6 @@ The dashboard updates without requiring a full page reload.
 
 <img width="1902" height="860" alt="image" src="https://github.com/user-attachments/assets/7843ef89-0e56-4c94-b765-05392d6be8ed" />
 
-<img width="1890" height="868" alt="image" src="https://github.com/user-attachments/assets/43776a5d-b849-480b-8828-ec7a3f237b98" />
 
 
 ---
