@@ -540,6 +540,12 @@ Rather than simply displaying raw sales records, the application demonstrates ho
 
 ---
 
+## 🤖 AI-Assisted Development
+
+AI tools such as **ChatGPT** and **GitHub Copilot** were used to support research, debugging, understanding of programming concepts, and development throughout the project. Final implementation, testing, and development decisions were completed and reviewed by the developer.
+
+---
+
 ## 👤 Author
 
 **Diya Lakha**
